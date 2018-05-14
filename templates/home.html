@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Analyseur bloc</title>
+</head>
+<body>
+<h1>Give the Id of the block you want to access?</h1>
+<h2>An inappropriate answer will redirect you to the last block</h2>
+
+<form action = "{% url 'count' %}">
+    <input type="submit" value="Numero du bloc"/> >
+    <textarea cols ='40' rows="1" name="fulltext"></textarea>
+</form>
+
+</body>
+</html>
